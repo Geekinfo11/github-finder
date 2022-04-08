@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+    background-color: #EDEEF5 !important;
+}
+
+/* Header */
+.header h1 {
+    font-size: 30px;
+    font-family: 'Rubik Moonrocks', cursive;
+    cursor: pointer;
+
+}
+
+.header p {
+    font-size: 20px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.header i {
+    font-size: 20px;
+}
+
+.header .dark-light {
+    cursor: pointer;
+}
+
+/* content */
+.content {
+    margin-top: 200px;
+}
+
+.search-bar {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 10px gray;
+}
+
+.search-bar input {
+    border: none;
+    margin: 0px 10px;
+    overflow-x: hidden;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.btn-success {
+    border-radius: 10px !important;
+    padding: 7px 15px !important;
+}
+
+/*  */
+.result-div h1 {
+    font-size: 30px;
+}
+
+.result-div p {
+    font-size: 20px;
+}
+
+.section-3 {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px gray;
+}
+
+.repos-follow-div {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.animate__animated.animate__bounceInUp {
+    --animate-duration: 1s;
+}
+
+.animate__animated.animate__backOutDown {
+    --animate-duration: 1s;
+}
+
+.search-key {
+    font-family: 'monospace';
+    letter-spacing: 2px;
+}
