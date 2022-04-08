@@ -6,7 +6,7 @@ window.onload = () => {
 
     darkLightDiv.addEventListener('click', (e) => {
         // make sound effect
-        const audio = new Audio("/medias/light.switch.wav");
+        const audio = new Audio("https://geekinfo11.github.io/github-finder/medias/light.switch.wav");
         audio.play();
 
         if (currentMode == 0) {
